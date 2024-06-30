@@ -3,40 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Mi primer sitio web</title>
 </head>
 <body>
     <header>
-        <h1>El coliseo romano</h1>
-        <div>
-            <img src="./descarga.jpg" alt="Coliseo Romano">
+        <div class="titulo">
+            <h1>El coliseo romano</h1>
+            <img src="./descarga.jpg" alt="Coliseo Romano" class="imagenes">
         </div>
     </header>
     <main>
-        <hr>
-        <section>
-            <h2>Introducción</h2>
-            <p>El Coliseo Romano, también conocido como Anfiteatro Flavio, es uno de los monumentos más emblemáticos de Roma y del mundo. Ubicado en el centro de la ciudad, este anfiteatro es una maravilla arquitectónica y un símbolo del poder y la ingeniería del Imperio Romano.</p>
-        </section>
-        <hr>
-        <section>
-            <h2>Historia</h2>
-            <p>El Coliseo, también conocido como Anfiteatro Flavio, fue inaugurado en el año 80 d.C. por el emperador Tito. Este majestuoso edificio fue utilizado principalmente para espectáculos de gladiadores, cacerías de animales y ejecuciones públicas.</p>
-        </section>
-        <hr>
-        <section>
-            <h2>Arquitectura</h2>
-            <p>El Coliseo es una obra maestra de la arquitectura romana, construido con piedra y hormigón. Tiene una forma ovalada y su diseño incluye tres niveles de arcos y columnas. Su capacidad original era para unos 50,000 a 80,000 espectadores.</p>
-        </section>
-        <hr>
+        <div id="información">
+            <hr>
+            <div class="partes">
+                <h2 class="subtitulo">Introducción</h2>
+                <p>El Coliseo Romano, también conocido como Anfiteatro Flavio, es uno de los monumentos más emblemáticos de Roma y del mundo. Ubicado en el centro de la ciudad, este anfiteatro es una maravilla arquitectónica y un símbolo del poder y la ingeniería del Imperio Romano.</p>
+            </div>
+            <hr>
+            <div class="partes">
+                <h2 class="subtitulo">Historia</h2>
+                <p>El Coliseo, también conocido como Anfiteatro Flavio, fue inaugurado en el año 80 d.C. por el emperador Tito. Este majestuoso edificio fue utilizado principalmente para espectáculos de gladiadores, cacerías de animales y ejecuciones públicas.</p>
+            </div>
+            <hr>
+            <div class="partes">
+                <h2 class="subtitulo">Arquitectura</h2>
+                <p>El Coliseo es una obra maestra de la arquitectura romana, construido con piedra y hormigón. Tiene una forma ovalada y su diseño incluye tres niveles de arcos y columnas. Su capacidad original era para unos 50,000 a 80,000 espectadores.</p>
+            </div>
+            <hr>
+        </div>
     </main>
     <footer>
-        <span>Para más información visita los siguientes sitios:</span>
-        <div>
-            <a href="https://www.lugarturistico.com/coliseo-romano">Lugares turísticos</a>
-        </div>
-        <div>
-            <a href="https://www.worldhistory.org/coliseo">Historia del coliseo romano</a>
+        <div class="links">
+            <span class="info">Para más información visita los siguientes sitios:</span>
+            <a href="https://www.lugarturistico.com/coliseo-romano" class="links2" target="_blank">Lugares turísticos</a>
+            <a href="https://www.worldhistory.org/coliseo" class="links2" target="_blank">Historia del coliseo romano</a>
         </div>
     </footer>
 </body>

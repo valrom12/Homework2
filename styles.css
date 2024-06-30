@@ -1,0 +1,51 @@
+body{
+    background-color: beige;
+}
+
+.titulo{
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagenes{
+    width: 30vw;
+    height: 30vw;
+    padding: 1em 0 0 0;
+}
+
+.partes{
+    margin: 0.5em 1em 0.5em 1em;
+}
+
+#información{
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitulo{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0.3em;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.links2{
+    padding: 0.3em;
+    margin: 0;
+    color: brown;
+}
+ .info{
+    font-size: 1.2em;
+    padding: 0.3em;
+}
+
+.links2:hover{
+    color: darkblue;
+}
